@@ -27,23 +27,26 @@
         $width = $_POST['lebar'];
         $height = $_POST['tinggi'];
 
-        ?>
-        <table border='1'>
-        <?php
-        for ($i = 0; $i < $height; $i++) {
-        ?>
-        <tr>
-        <?php
-        for ($j = 0; $j < $width; $j++) {
-                echo "<td>row " . $i . " column " . $j . "</td>";
+    ?>
+        <table>
+            <?php
+            for ($i = 0; $i < $height; $i++) {
+            ?>
+                <tr>
+                    <?php
+                    for ($j = 0; $j < $width; $j++) {
+                    ?>
+                        <td></td>
+                    <?php }
+                    ?>
+                </tr>
+            <?php
             }
-            ?></tr>
-        <?php
-        }
-        echo "</table>";
+            ?>
+        </table>
+    <?php
     }
     ?>
-
 </body>
 
 </html>

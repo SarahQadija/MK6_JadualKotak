@@ -9,10 +9,9 @@ fieldset{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-table,
-td {
-  
-    border: 2px solid;
+table,td,tr{
+
+    border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-collapse: collapse;
     margin-top: 80px;
@@ -22,6 +21,7 @@ td {
     background-color:azure;
 
 }
+
 
 .center {
     text-align: center;
